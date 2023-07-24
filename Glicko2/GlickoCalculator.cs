@@ -6,7 +6,7 @@ namespace Glicko2
     public static class GlickoCalculator
     {
         private static double VolatilityChange = 0.5;
-        private static double ConvergenceTolerance = 0.000001;
+        private static double ConvergenceTolerance = 0.0001;
         private static double glickoConversion = 173.7178;
 
         public static GlickoPlayer CalculateRanking(GlickoPlayer competitor, List<GlickoOpponent> opponents)
